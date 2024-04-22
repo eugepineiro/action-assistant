@@ -42,5 +42,5 @@ def get_tools():
   ]
 
 
-def get_rain():
-  return str(57 * 2)
+def get_rain(location, unit):
+  return f"The weather in {location} is {57 * 2} {unit}."
